@@ -1,0 +1,178 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat-Bold', sans-serif;
+}
+
+.bighead {
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 4rem;
+  line-height: 1.2;
+  font-weight: bolder;
+}
+
+.i1 {
+  font-size: 3em;
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.i1:hover {
+  color: #ff4c68;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+
+#title {
+  color: white;
+  text-align: left;
+  background-color: #ff4c68;
+  /* position: relative;
+    z-index: -2; */
+}
+#title.container-fluid{
+  padding:3% 15% 7%;
+}
+
+.download-button {
+  margin: 2rem 1.2rem;
+}
+
+.navbar-brand {
+  font-family: Ubuntu;
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font: 2rem;
+}
+
+.nav {
+  margin: auto 14em;
+}
+
+#features {
+  width: 100%;
+  background-color: #fff;
+  z-index: 1;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5 rem;
+}
+
+.dog-phone {
+  width: 60%;
+  transform: rotate(30deg);
+  /* z-index: -1; */
+  position: absolute;
+}
+
+.feature-box {
+  margin: auto;
+  padding: 7% 5%;
+}
+
+#testimonials {
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 5% 7%;
+}
+
+.testimonial-text {
+  padding: 0 14%;
+}
+
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.2;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+.container-fluid {
+  padding-bottom: 100px;
+}
+
+@media (max-width:1028px) {
+  .dog-phone {
+    position: static;
+    transform: rotate(0);
+  }
+
+  #title {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+
+}
+
+.cta {
+  color: #fff;
+  font-family: 'Montserrat-Black', sans-serif;
+  font-size: 3rem;
+  line-height: 1.2;
+  font-weight: bolder;
+}
+
+#footer {
+
+}
+
+.footer-i {
+  margin: auto 10px;
+}
+
+.footer-p {
+  color: gray;
+}
